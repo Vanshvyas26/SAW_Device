@@ -1,0 +1,16 @@
+p 1[atm] Air pressure
+T 25[degC] Air temperature
+c0 100 DCM Concentration in ppm
+c_DCM_air 1e-6*c0*p/(R_const*T) DCM concentration in air
+M_DCM 84.93[g/mol] Molar mass of DCM
+K 10^1.4821 PIB/air partition constant for DCM
+rho_DCM_PIB K*M_DCM*c_DCM_air Mass concentration of DCM in PIB
+rho_PIB 0.918[g/cm^3] Density of PIB
+E_PIB 10[GPa] Young's modulus of PIB
+nu_PIB 0.48 Poisson's ratio of PIB
+eps_PIB 2.2 Relative permittivity of PIB
+switch 0 Switch for adding DCM density
+vR 3488[m/s] Rayleigh wave velocity
+width 4[um] Width of unit cell
+f0 vR/width Estimated SAW frequency
+t_PIB 0.5[um] PIB thickness

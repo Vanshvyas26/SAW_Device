@@ -1,0 +1,34 @@
+(A)LiNbO3 Parameters:
+
+(i)Elasticity matrix, Voigt notation
+
+{242.4[GPa], 75.2[GPa], 203[GPa], 75.2[GPa], 57.3[GPa], 203[GPa], 0, 0, 0, 75.2[GPa], 0, 8.5[GPa], -8.5[GPa], 0, 59.5[GPa], 0, 0, 0, 8.5[GPa], 0, 59.5[GPa]}
+
+(ii)Coupling matrix, Voigt notation
+{1.33, 0, 0, 0.23, 0, -2.5, 0.23, 0, 2.5, 0, -2.5, 0, 0, 0, 3.7, 0, 3.7, 0}
+
+(iii)Relative permittivity
+{28.7, 85.2, 85.2}
+
+(iv)Density
+4647
+************************************************************************************************
+
+(B)PIB Parameters:
+(iv)Density - PIB
+rho_PIB+switch*rho_DCM_PIB
+
+******************************************************
+CdS
+(i)Elasticity matrix, Voigt notation
+{907[GPa], 581[GPa], 907[GPa], 510[GPa], 510[GPa], 938[GPa], 0, 0, 0, 150.4[GPa], 0, 0, 0, 0, 150.4[GPa], 0, 0, 0, 0, 0, 163[GPa]}
+
+(ii)Coupling matrix, Voigt notation
+{0, 0, 0, 0, 0, 0, -0.265, 0, 0.385, 0, 0, 0, -0.212, 0, 0, 0, 0, 0}
+
+
+(iii)Relative permittivity
+{8.9, 8.9, 8.9}
+
+(iv)Density
+4647
